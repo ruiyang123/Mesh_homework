@@ -1,5 +1,9 @@
 # Mesh Generation homework
 ---
+## GUI
+<img src="imgs/gui.PNG" width = "300" height = "200"  align=center />
+
+
 
 ## TD1
 
@@ -14,8 +18,11 @@ and the resultat obtained:
 ### (2) Find three adjacent faces 
 The aim is to find three adjacent faces for each triangle. 
 Here I plot three faces of the first face(index 0) : 
+green : target face; red: adjacent face 
+<img src="imgs/adjacents.PNG" width = "300" height = "200" align = center />
 
-<img src="imgs/adjacents.PNG">
+you can set 
+
 
 
 
