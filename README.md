@@ -188,6 +188,21 @@ ps : the point can see the edge means that the orientation of these three point 
   <img src="imgs/test_loc.PNG" width="600" height="500"></img>
 </div>
 
+  <div>
+  <br/>
+  <p>The result we obtain  blue point is the target point </p>
+<table>
+<tr>
+<td>
+<a><img src="imgs/test1.PNG" width="50%"></a>
+</td>
+<td>
+<a><img src="imgs/test2.PNG" width="50%"></a>
+</td>
+</tr>
+</table>
+</div>
+
 
 
 
