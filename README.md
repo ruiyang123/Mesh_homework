@@ -26,7 +26,7 @@ There are six radio buttons and five push buttons.
 
 you can change the file path here.
 ![avatar](imgs/change_file_path.PNG)
-and the resultat(original plot) obtained:
+and the result(original plot) obtained:
 <img src="imgs/teapot.PNG" width = "300" height = "200"  align=center />
 
 ### (2) Find three adjacent faces 
@@ -65,7 +65,16 @@ Here I plot all adjacent faces of the first point(index 0) of teapot
 
 After we create the circulator, then the calculate is very simple. 
 The formule we use : 
-![avatar](imgs/lap.PNG){:height="50%" width="50%"}
+![avatar](imgs/lap.PNG)
+
+<div><I>Instructions :</I> <br/>
+  <p>After load a file, you can select the button <strong>draw_curv</strong> to calculate the laplacien and draw the mesh colored by curvature</p>
+</div>
+
+The result we obtain : 
+<div><br/>
+<img src="imgs/cur.PNG" width="400" height="200"></img><div>
+
 
 
 
