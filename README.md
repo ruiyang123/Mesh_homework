@@ -152,11 +152,23 @@ Algo :
   <p>After you create the local delaunay mesh, then you can select the button <strong>test_add_point</strong> to check the algo.<br/>
   
   <p>you can change the position of the point here : </p> </br>
-  <img src="imgs/test_add.PNG" width="600" height="150"></img>
-  
-  
+  <img src="imgs/test_add.PNG" width="600" height="250"></img>
+  <div>
   
   <div>
+  <br/>
+  <p>The result we obtain (before and After) blue point is the point added</p>
+<table>
+<tr>
+<td>
+<a><img src="imgs/before.PNG" width="50%"></a>
+</td>
+<td>
+<a><img src="imgs/after.PNG" width="50%"></a>
+</td>
+</tr>
+</table>
+</div>
 
 
 
