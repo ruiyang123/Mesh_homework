@@ -73,7 +73,51 @@ The formule we use :
 
 The result we obtain : 
 <div><br/>
-<img src="imgs/cur.PNG" width="400" height="200"></img><div>
+<img src="imgs/cur.PNG" width="400" align="center"></img><div>
+
+## 5.TD4 
+
+### (1) Create a primary mesh from a set of points
+Algo:
+- Initialize the first triangle by using  the point with the index 0,1,2
+- test for the next point : if inside the triangle then split the triangle;  if outside the point then link with the visible boundary edges;  if in the boundary then link with another vertex.
+- we do this iteratively.
+ 
+<div><I>Instructions :</I> <br/>
+  <p>You can select the button <strong>Check_create_mesh</strong> to create a primary mesh </p>, I use the file <strong>franke4.off</strong> which has 1000 points.
+  You can change the pathe of the data:<br/> 
+  
+  <img src="imgs/create_mesh_plot.PNG" width="600" height="150"></img>
+  
+You can change the number of points used in the mesh generation process here:
+(In the function <strong>void Mesh::create_mesh(const char *file_name)</strong>, you can change k<50 by another number (Here in purpose of test, I only use 50 points ))
+<table>
+<tr>
+<td>
+<a><img src="imgs/func_create_mesh.PNG" width="50%"></a>
+</td>
+<td>
+<a><img src="imgs/ins_create_mesh.PNG" width="50%"></a>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div>
+  <p>The result we obtain (50 points and 1000 points)</p>
+<table>
+<tr>
+<td>
+<a><img src="imgs/p50.PNG" width="50%"></a>
+</td>
+<td>
+<a><img src="imgs/p1000.PNG" width="50%"></a>
+</td>
+</tr>
+</table>
+</div>
+
 
 
 
