@@ -37,18 +37,25 @@ The aim is to find three adjacent faces for each triangle.
   <img src="imgs/change_atta.PNG" width="600" height="200"></img>
 </div>
 
-Here I plot three faces of the first face(index 0) : 
+Here I plot three faces of the first face(index 0) of teapot: 
 
 <div><p>green : target face; red: adjacent face </p>
   <img src="imgs/adjacents.PNG" width = "300" height = "200" align = center /></div>
 
-you can set 
 
+## 3.TD2 Circulator
 
+The aim of this part is to crate a vertex circulator and a triangle circulator.
+The vertex circulator is to traverse the surrounding faces of the target point.
+The triangle circulator is to traverse the surrounding faces of the target face.
 
+<div><I>Instructions :</I> <br/>
+  <p>After load a file, you can select the button <strong>connexion triangle</strong> to show three adjacent faces of the target face  </p>
+  You can change the index of the target point here:<br/> 
+  
+  <img src="imgs/change_cir.PNG" width="600" height="200"></img>
+</div>
 
-
-## TD2 
 
 
 
