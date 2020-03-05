@@ -118,6 +118,29 @@ You can change the number of points used in the mesh generation process here:
 </table>
 </div>
 
+### (2) Lawson algo for optimiser the mesh
+Algo :
+- Initialize a queue which contain all edges that are not local delaunay and mark all these edges(I add a property to Vertex to realize the mark)
+- Then we flip these edges one by one. When we flip a edge, At first we erase the mark of the edge and then it will change the situation of four edges so we do the local delaunay test for these four edges and then add all edges without mark to the queue.
+- Until the queue is empty, we finish the optimisation.
+
+<div><I>Instructions :</I> <br/>
+  <p>After you create the mesh (select the button <strong>Check_create_mesh</strong>)</p>, you can select the button <strong>flip_edge</strong> to do the optimisation and then you can select <strong>drawwire2d</strong> to show the wire frame.
+  <div>
+
+<div>
+  <p>The result we obtain (50 points and 1000 points)</p>
+<table>
+<tr>
+<td>
+<a><img src="imgs/law_p50.PNG" width="50%"></a>
+</td>
+<td>
+<a><img src="imgs/law_p1000.PNG" width="50%"></a>
+</td>
+</tr>
+</table>
+</div>
 
 
 
