@@ -153,7 +153,7 @@ Algo :
   
   <p>you can change the position of the point here : </p> </br>
   <img src="imgs/test_add.PNG" width="600" height="250"></img>
-  <div>
+  </div>
   
   <div>
   <br/>
@@ -170,7 +170,23 @@ Algo :
 </table>
 </div>
 
+## 6.Bonus
 
+### (1) location a given point :
+Algo :
+- chose a starting face(here I use the face with index 0. you can choose randomly)
+- test three edges of the triangle (if the point can see the edge) we pass to the next face and mark the edge. 
+- until the point in the triangle
+
+ps : the point can see the edge means that the orientation of these three point v0->v1->vp is clockwise.
+
+
+<div><I>Instructions :</I> <br/>
+  <p> then you can select the button <strong>test_loc_point</strong>.<br/>
+  
+  <p>you can change the position of the point here : </p> </br>
+  <img src="imgs/test_loc.PNG" width="600" height="500"></img>
+</div>
 
 
 
