@@ -65,7 +65,7 @@ Here I plot all adjacent faces of the first point(index 0) of teapot
 
 After we create the circulator, then the calculate is very simple. 
 The formule we use : 
-![test image size](imgs/lap.PNG){:height="50%" width="50%"}
+![avatar](imgs/lap.PNG){:height="50%" width="50%"}
 
 
 
