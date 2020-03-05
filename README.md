@@ -142,6 +142,24 @@ Algo :
 </table>
 </div>
 
+### (3) Add a point to a local delaunay mesh
+Algo :
+- find the position(the index to the triangle) of the point
+- split to three and the situation of the three sides of the triangle will change, then we do the local delauny test then add to  the queue
+- We flip the edge in the queue and add new edges until the queue is empty just like the lawson algo.
+
+<div><I>Instructions :</I> <br/>
+  <p>After you create the local delaunay mesh, then you can select the button <strong>test_add_point</strong> to check the algo.<br/>
+  
+  <p>you can change the position of the point here : </p> </br>
+  <img src="imgs/test_add.PNG" width="600" height="150"></img>
+  
+  
+  
+  <div>
+
+
+
 
 
 
