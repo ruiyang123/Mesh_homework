@@ -32,9 +32,11 @@ and the resultat(original plot) obtained:
 The aim is to find three adjacent faces for each triangle. 
 <div><I>Instructions :</I> <br/>
   <p>After load a file, you can select the button <strong>connexion triangle</strong> to show three adjacent faces of the target face  </p>
-  You can change the index of the target face here: 
-  <img src="imgs/change_atta.PNG" width="300" height="200"></img>
+  You can change the index of the target face here:<br/> 
+  
+  <img src="imgs/change_atta.PNG" width="600" height="200"></img>
 </div>
+
 Here I plot three faces of the first face(index 0) : 
 
 <div><p>green : target face; red: adjacent face </p>
