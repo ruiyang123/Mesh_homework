@@ -87,7 +87,7 @@ Algo:
   <p>You can select the button <strong>Check_create_mesh</strong> to create a primary mesh </p>, I use the file <strong>franke4.off</strong> which has 1000 points.
   You can change the pathe of the data:<br/> 
   
-  <img src="imgs/create_mesh_plot.PNG" width="600" height="200"></img>
+  <img src="imgs/create_mesh_plot.PNG" width="600" height="150"></img>
   
 You can change the number of points used in the mesh generation process here:
 
@@ -97,7 +97,7 @@ You can change the number of points used in the mesh generation process here:
 <a><img src="imgs/func_create_mesh.PNG" width="50%"></a>
 </td>
 <td>
-<a><img src="imgs/ins_create_mesh" width="50%"></a>
+<a><img src="imgs/ins_create_mesh.PNG" width="50%"></a>
 </td>
 </tr>
 </table>
