@@ -142,6 +142,52 @@ Algo :
 </table>
 </div>
 
+### (3) Add a point to a local delaunay mesh
+Algo :
+- find the position(the index to the triangle) of the point
+- split to three and the situation of the three sides of the triangle will change, then we do the local delauny test then add to  the queue
+- We flip the edge in the queue and add new edges until the queue is empty just like the lawson algo.
+
+<div><I>Instructions :</I> <br/>
+  <p>After you create the local delaunay mesh, then you can select the button <strong>test_add_point</strong> to check the algo.<br/>
+  
+  <p>you can change the position of the point here : </p> </br>
+  <img src="imgs/test_add.PNG" width="600" height="250"></img>
+  </div>
+  
+  <div>
+  <br/>
+  <p>The result we obtain (before and After) blue point is the point added</p>
+<table>
+<tr>
+<td>
+<a><img src="imgs/before.PNG" width="50%"></a>
+</td>
+<td>
+<a><img src="imgs/after.PNG" width="50%"></a>
+</td>
+</tr>
+</table>
+</div>
+
+## 6.Bonus
+
+### (1) location a given point :
+Algo :
+- chose a starting face(here I use the face with index 0. you can choose randomly)
+- test three edges of the triangle (if the point can see the edge) we pass to the next face and mark the edge. 
+- until the point in the triangle
+
+ps : the point can see the edge means that the orientation of these three point v0->v1->vp is clockwise.
+
+
+<div><I>Instructions :</I> <br/>
+  <p> then you can select the button <strong>test_loc_point</strong>.<br/>
+  
+  <p>you can change the position of the point here : </p> </br>
+  <img src="imgs/test_loc.PNG" width="600" height="500"></img>
+</div>
+
 
 
 
