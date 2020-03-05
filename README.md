@@ -50,11 +50,15 @@ The vertex circulator is to traverse the surrounding faces of the target point.
 The triangle circulator is to traverse the surrounding faces of the target face.
 
 <div><I>Instructions :</I> <br/>
-  <p>After load a file, you can select the button <strong>connexion triangle</strong> to show three adjacent faces of the target face  </p>
+  <p>After load a file, you can select the button <strong>test circulateur</strong> to show all the adjacent faces of the target point  </p>
   You can change the index of the target point here:<br/> 
   
   <img src="imgs/change_cir.PNG" width="600" height="200"></img>
 </div>
+
+Here I plot all adjacent faces of the first point(index 0) of teapot
+
+<img src="imgs/cir.PNG" width="400" height="250"></img>
 
 
 
