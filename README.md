@@ -1,4 +1,5 @@
 # Mesh Generation homework
+Author : Rui YANG
 ---
 ## 1.GUI
 <img src="imgs/gui.PNG" width = "600" height = "400"  align=center />
@@ -59,6 +60,13 @@ The triangle circulator is to traverse the surrounding faces of the target face.
 Here I plot all adjacent faces of the first point(index 0) of teapot
 
 <img src="imgs/cir.PNG" width="400" height="250"></img>
+
+## 4.TD3 Laplacien and Curvature
+
+After we create the circulator, then the calculate is very simple. 
+The formule we use : 
+![avatar](imgs/lap.PNG){:height="50%" width="50%"}
+
 
 
 
