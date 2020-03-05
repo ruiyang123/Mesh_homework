@@ -1,12 +1,12 @@
 # Mesh Generation homework
 ---
-## GUI
+## 1.GUI
 <img src="imgs/gui.PNG" width = "600" height = "400"  align=center />
 There are six radio buttons and five push buttons.
 
 ### Radio buttons
 - original plot : Draw the original Mesh that means 3D mesh and three colors
-- connextion triangle : Draw three ajacents triangles and the center triangle
+- connexion triangle : Draw three ajacents triangles and the center triangle
 - test circulateur : Draw the center point and all the surrounding triangles
 - drawwire2D : Draw 2D wire frame Mesh
 - check_loc : Check location point algo
@@ -19,19 +19,22 @@ There are six radio buttons and five push buttons.
 - test_loc_point : Check location point algo
 - exit : Exit the app
 
-## TD1
+## 2.TD1
 
 ### (1) Load a file and draw the mesh 
 
 you can change the file path here.
 ![avatar](imgs/change_file_path.PNG)
-<div><b>Instructions</b></div>
 and the resultat(original plot) obtained:
 <img src="imgs/teapot.PNG" width = "300" height = "200"  align=center />
 
 ### (2) Find three adjacent faces 
 The aim is to find three adjacent faces for each triangle. 
-
+<div><I>Instructions :</I> <br/>
+  <p>After load a file, you can select the button <strong>connexion triangle</strong> to show three adjacent faces of the target face  </p>
+  You can change the index of the target face here: 
+  <img src="imgs/change_atta.PNG" width="300" height="200"></img>
+</div>
 Here I plot three faces of the first face(index 0) : 
 
 <div><p>green : target face; red: adjacent face </p>
