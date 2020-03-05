@@ -90,7 +90,7 @@ Algo:
   <img src="imgs/create_mesh_plot.PNG" width="600" height="150"></img>
   
 You can change the number of points used in the mesh generation process here:
-
+(In the function <strong>void Mesh::create_mesh(const char *file_name)</strong>, you can change k<50 by another number (Here in purpose of test, I only use 50 points ))
 <table>
 <tr>
 <td>
@@ -102,6 +102,22 @@ You can change the number of points used in the mesh generation process here:
 </tr>
 </table>
 </div>
+
+
+<div>
+  <p>The result we obtain (50 points and 1000 points)</p>
+<table>
+<tr>
+<td>
+<a><img src="imgs/p50.PNG" width="50%"></a>
+</td>
+<td>
+<a><img src="imgs/p1000.PNG" width="50%"></a>
+</td>
+</tr>
+</table>
+</div>
+
 
 
 
